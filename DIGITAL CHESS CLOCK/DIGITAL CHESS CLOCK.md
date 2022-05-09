@@ -1,4 +1,4 @@
-# Digital Integrated Circuits Project 2021/2022
+﻿Digital Integrated Circuits Project 2021/2022
 
 Digital Chess Timer 
 
