@@ -1,8 +1,8 @@
 # Digital Integrated Circuits Project 2021/2022
 
-Digital Chess Timer 
+## Digital Chess Timer 
 
-Description 
+# Description 
 
 A digital clock designed for chess games. It mainly consists of two timers which cannot count at the same time. The source clock is alternatively transmitted between the two down counters using a switcher. 
 
@@ -10,25 +10,25 @@ A digital clock designed for chess games. It mainly consists of two timers which
 
 ![](Aspose.Words.976523d5-629c-46d0-9799-fda399ba6124.002.png)
 
-Block Schematic 
+# Block Schematic 
 
 ![](Aspose.Words.976523d5-629c-46d0-9799-fda399ba6124.003.jpeg)
 
-Electrical Schematic 
+# Electrical Schematic 
 
-7-Seg IC 
+# 7-Seg IC 
 
 ![](Aspose.Words.976523d5-629c-46d0-9799-fda399ba6124.004.png)
 
-Clock IC 
+# Clock IC 
 
 ![](Aspose.Words.976523d5-629c-46d0-9799-fda399ba6124.005.jpeg)
 
-The Digital Chess Timer 
+# The Digital Chess Timer 
 
 ![](Aspose.Words.976523d5-629c-46d0-9799-fda399ba6124.006.jpeg)
 
-Electrical Characteristics 
+# Electrical Characteristics 
 
 
 
@@ -48,7 +48,7 @@ Electrical Characteristics
 |74HC93 |Flip-Flop |
 |LED |Green |
 ||Red |
-Operation Mode 
+# Operation Mode 
 
 
 
@@ -63,25 +63,25 @@ Operation Mode
 |Reset the timers |1 |x |1 |1 |0 |
 Functioning 
 
-Clock Logic 
+# Clock Logic 
 
 - The main clock feeds both timers with pulses periodically. 
 - It is connected to the source of a P-Type Transistor. 
 - The pulses will be valid only if the gate is supplied with 0V (in other words, reset 0, 0 is 0, surrender is 0 and both counters are non-null). Timers will be off otherwise. 
 
-Timer Logic 7-seg Display 
+# Timer Logic 7-seg Display 
 
 ![](Aspose.Words.976523d5-629c-46d0-9799-fda399ba6124.007.png)![](Aspose.Words.976523d5-629c-46d0-9799-fda399ba6124.008.png)
 
 ![](Aspose.Words.976523d5-629c-46d0-9799-fda399ba6124.009.png)
 
-Reset Logic 
+# Reset Logic 
 
 Moving to the next state by passing only one pulse. Must push on 0 first. 
 
-Stop/Start Logic 
+# Stop/Start Logic 
 
-Stop/Start 
+# Stop/Start 
 
 When Stop/Start pin is set to 0, Clock gate get supplied by voltage, hence clock pulses are blocked.  
 
@@ -93,7 +93,7 @@ Surrender Logic
 
 When surrender pin is set to 1, Clock gate is supplied by voltage, hence clock pulses are blocked.  
 
-Bill of Materials 
+# Bill of Materials 
 
 
 
@@ -113,7 +113,7 @@ Bill of Materials
 |74HC93 |4 |Flip-Flop |
 |LED |2 |Green |
 ||2 |Red |
-Bibliography 
+# Bibliography 
 
 [https://sweetcode.io/logisim-software-digital-clock/ ](https://sweetcode.io/logisim-software-digital-clock/)[https://en.wikipedia.org/wiki/Chess_clock ](https://en.wikipedia.org/wiki/Chess_clock)[https://digitalgametechnology.com/products/chess-clocks/dgt2010-official-fide-chess-clock ](https://digitalgametechnology.com/products/chess-clocks/dgt2010-official-fide-chess-clock)[https://ro.farnell.com/ ](https://ro.farnell.com/)
 Ala Eddine BATTIKH | UPB FILS ![](Aspose.Words.976523d5-629c-46d0-9799-fda399ba6124.010.png)
