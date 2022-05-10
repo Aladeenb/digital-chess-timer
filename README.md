@@ -116,4 +116,4 @@ When surrender pin is set to 1, Clock gate is supplied by voltage, hence clock p
 ## Bibliography 
 
 [https://sweetcode.io/logisim-software-digital-clock/ ](https://sweetcode.io/logisim-software-digital-clock/)[https://en.wikipedia.org/wiki/Chess_clock ](https://en.wikipedia.org/wiki/Chess_clock)[https://digitalgametechnology.com/products/chess-clocks/dgt2010-official-fide-chess-clock ](https://digitalgametechnology.com/products/chess-clocks/dgt2010-official-fide-chess-clock)[https://ro.farnell.com/ ](https://ro.farnell.com/)
-Ala Eddine BATTIKH | UPB FILS ![](Aspose.Words.976523d5-629c-46d0-9799-fda399ba6124.010.png)
+#### Ala Eddine BATTIKH | UPB FILS ![](Aspose.Words.976523d5-629c-46d0-9799-fda399ba6124.010.png)
